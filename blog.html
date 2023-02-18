@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today Blog</title>
+
+    <!-- external files and links -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <!-- blog javascript part -->
+    <script src="/javascript/blog.js"></script>
+
+    <header class="w-full h-full max-w-7xl mx-auto md:py-5 ">
+        <div class="navbar bg-slate-300 px-10">
+            <div class="flex-1">
+                <h1><span class="text-4xl font-bold">Interactive</span><br>
+                    <span class="text-2xl font-semibold text-gray-600">Geometry Genius</span>
+                </h1>
+            </div>
+            <div class="flex-none gap-2">
+                <div class="form-control">
+                    <button id="cardBtn" class="btn btn-active">Card</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="w-full h-full max-w-7xl mx-auto py-10">
+            <div class="flex flex-col md:flex-row gap-10 justify-between items-center">
+                <div class="flex flex-col gap-6 px-5 lg:px-0 w-full lg:w-[50%] mx-auto">
+                    <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+                        <div class="collapse-title text-xl font-medium">
+                            <!-- What is the DOM? -->
+                            <h1>What is the DOM?</h1>
+                            <!-- What is the purpose of the DOM? -->
+                            <h1>What is the purpose of the DOM?</h1>
+                        </div>
+                        <div class="collapse-content">
+                            <p>The Document Object Model is an application programming interface (API) for HTML and XML
+                                documents (DOM). It outlines a document's logical structure, access, and handling
+                                procedures.</p>
+                            <br>
+                            <p>The Document Object Model is an application programming interface (API) for HTML and XML
+                                documents (DOM). It outlines a document's logical structure, access, and handling
+                                procedures.</p>
+                        </div>
+                    </div>
+
+                    <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+                        <div class="collapse-title text-xl font-medium">
+                            <!-- How to select an element from the document. -->
+                            <h1>How to select an element from the document.</h1>
+                        </div>
+                        <div class="collapse-content">
+                            <p>
+                            <h1>There are six ways to choose an element from the document using JavaScript.</h1>
+                            <ul class="number">
+                                <!-- six element with example -->
+                                <li>1. getElementById – Search element by element_id.</li>
+                                <li>2. getElementsByTagName – Search element by tag name</li>
+                                <li>3. getElementsByClassName – Search element by class name.</li>
+                                <li>4. getElementsByName – Search element by name attribute.</li>
+                                <li>5. querySelector - Returns the first element that matches the passed selector.</li>
+                                <li>6. querySelectorAll - This method returns all the elements that match the passed
+                                    selector.</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+                        <div class="collapse-title text-xl font-medium">
+                            <!-- What is Event Bubbling -->
+                            <h1>What is Event Bubbling?</h1>
+                        </div>
+                        <div class="collapse-content">
+                            <p>Event bubbling is a notion found in the DOM (Document Object Model). After an element
+                                gets an event, the event bubbles up (or you may say is communicated or propagated) to
+                                the element's parent and grandparent elements in the DOM tree until it reaches the root
+                                element.</p>
+                        </div>
+                    </div>
+
+                    <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+                        <div class="collapse-title text-xl font-medium">
+                            <!-- What is callback function? -->
+                            <h1>What is callback function?</h1>
+                            <!-- Why use callback function? -->
+                            <h1>Why use callback function?</h1>
+                        </div>
+                        <div class="collapse-content">
+                            <p>A JavaScript callback is a function that runs following the conclusion of another
+                                function. According to a stricter definition, a callback function is any function that
+                                accepts input from another function and uses that input to perform that other function.
+                            </p>
+                            <br>
+                            <p>Due to the fact that many JavaScript activities are asynchronous, callback methods are
+                                required. Instead, it runs in the background when the rest of the code is being
+                                executed. The function of a callback is to run code in response to an event.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
